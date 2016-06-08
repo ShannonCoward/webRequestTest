@@ -29,6 +29,9 @@
                                     <constraint firstAttribute="height" constant="30" id="qD8-cr-g0w"/>
                                 </constraints>
                                 <state key="normal" title="Swift"/>
+                                <connections>
+                                    <action selector="swiftButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rb0-IQ-Bk0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-XW-RUy">
                                 <rect key="frame" x="534" y="562" width="46" height="30"/>
@@ -37,6 +40,9 @@
                                     <constraint firstAttribute="height" constant="30" id="ciz-ts-lwB"/>
                                 </constraints>
                                 <state key="normal" title="Steak"/>
+                                <connections>
+                                    <action selector="steak:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3iU-il-mqf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akr-4a-vSA">
                                 <rect key="frame" x="239" y="562" width="123" height="30"/>
@@ -45,6 +51,9 @@
                                     <constraint firstAttribute="height" constant="30" id="X0x-ox-Ml9"/>
                                 </constraints>
                                 <state key="normal" title="Celebrity Gossip"/>
+                                <connections>
+                                    <action selector="celebrityGossipButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yt-qe-dSv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
